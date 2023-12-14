@@ -6,7 +6,7 @@ pipeline{
     stages{
 	stage('GetCode'){
             steps{
-		git branch: 'main',
+		git branch: 'master',
                 url: 'https://github.com/Devops142/maven-web-application-1.git'
             }
          }        
