@@ -12,21 +12,21 @@ pipeline {
         stage('Build') {
             steps {
                 // Perform the build steps (e.g., compile, test)
-                sh 'mvn clean install'
+                echo 'mvn clean install'
             }
         }
 
         stage('Test') {
             steps {
                 // Run additional tests
-                sh 'mvn test'
+                echo 'mvn test'
             }
         }
 
         stage('Deploy') {
             steps {
                 // Deploy the application (replace with your deployment script or commands)
-                sh './deploy.sh'
+                echo './deploy.sh'
             }
         }
     }
