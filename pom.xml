@@ -144,8 +144,28 @@
                                         <wtpContextName>maven-web-application</wtpContextName>
                                 </configuration>
                         </plugin>
-                </plugins>
-         </build>
+                <plugins>
+<project>
+                      <!-- Other project configurations -->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.company</groupId>
+                <artifactId>custom-maven-plugin</artifactId>
+                <version>1.0</version>
+                <configuration>
+                    <!-- Plugin-specific configuration, if any -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- Other project configurations -->
+
+</project>
+		</plugins>
+		</build>
 </project>
 
 
