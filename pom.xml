@@ -144,7 +144,7 @@
                                         <wtpContextName>maven-web-application</wtpContextName>
                                 </configuration>
                         </plugin>
-                <plugins>
+		</plugins>
 
 		</build>
 </project>
